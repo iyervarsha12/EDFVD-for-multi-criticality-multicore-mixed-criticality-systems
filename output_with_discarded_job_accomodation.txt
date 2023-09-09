@@ -1,0 +1,569 @@
+Core 0: x-factor = 0.3125, k = 0
+Core 1: x-factor = 0.675, k = 0
+Core 2: x-factor = 0.6525, k = 0
+Core 3: x_factor = 1, k = 1
+Given system can be scheduled.
+
+
+TIME 0:
+Core 0- Job 1
+Core 1- Job 1
+Core 2- Job 4
+Core 3- Job 2
+
+TIME 1:
+Core 0 - Criticality change to level 1 at time 1
+Core 1- Job 1
+Core 2 - Criticality change to level 1 at time 1
+Core 3 - Criticality change to level 1 at time 1
+Core 0 - considering job 0 ( core 0 ) to be accomodated.
+Core 0 - considering job 0 ( core 2 ) to be accomodated.
+Core 0 - considering job 0 ( core 3 ) to be accomodated.
+(could fit Job 0 in its alloted core 3)
+Core 0 - considering job 1 ( core 3 ) to be accomodated.
+(could fit Job 1 in its alloted core 3)
+Core 0 - considering job 1 ( core 2 ) to be accomodated.
+Core 0 - considering job 6 ( core 2 ) to be accomodated.
+Core 0 - considering job 5 ( core 2 ) to be accomodated.
+iCore 3 - ACCOMODATING discarded Job 1 ( core 2 )
+iCore 3 - ACCOMODATING discarded Job 6 ( core 2 )
+iCore 3 - ACCOMODATING discarded Job 5 ( core 2 )
+Core 0- Job 1
+Core 2 - considering job 0 ( core 0 ) to be accomodated.
+Core 2 - considering job 0 ( core 2 ) to be accomodated.
+Removing forever - job 0 ( core 0 )
+Removing forever - job 0 ( core 2 )
+Core 2- Job 4
+Core 3- Job 2
+
+TIME 2:
+Core 0- Job 1
+Core 1- Job 1
+Core 2- Job 3
+Core 3- Job 0
+
+TIME 3:
+Core 0- Job 1
+Core 1 will have forced criticality change.
+Core 2- Job 2
+Core 3- Job 0
+Core 1 - Criticality change to level 1 at time 3
+Core 1 - considering job 0 ( core 1 ) to be accomodated.
+Removing forever - job 0 ( core 1 )
+CORE 1- NULL
+
+TIME 4:
+Core 0- Job 1
+CORE 1- NULL
+Core 2- Job 2
+Core 3- Job 0
+
+TIME 5:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+Core 3- Job 0
+
+TIME 6:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+Core 3- Job 1 (discarded job from core 2)
+
+TIME 7:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+Core 3- Job 1 (discarded job from core 2)
+
+TIME 8:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+Core 3- Job 1 (discarded job from core 2)
+
+TIME 9:
+CORE 0- NULL
+CORE 1- NULL
+Core 3- Job 1
+Core 2- Job 4
+
+TIME 10:
+Core 0- Job 1
+Core 3- Job 1
+Core 1- Job 1
+Core 2- Job 4
+
+TIME 11:
+Core 0- Job 1
+Core 1- Job 1
+Core 2- Job 4
+Core 3- Job 1
+
+TIME 12:
+Core 0- Job 1
+Core 1- Job 1
+Core 2- Job 3
+Core 3- Job 5 (discarded job from core 2)
+
+TIME 13:
+Core 0- Job 1
+CORE 1- NULL
+CORE 2- NULL
+Core 3- Job 5 (discarded job from core 2)
+
+TIME 14:
+Core 0- Job 1
+CORE 1- NULL
+CORE 2- NULL
+Core 3- Job 5 (discarded job from core 2)
+
+TIME 15:
+CORE 0- NULL
+CORE 1- NULL
+Core 2- Job 2
+Core 3- Job 2
+
+TIME 16:
+CORE 0- NULL
+CORE 1- NULL
+Core 2- Job 2
+Core 3- Job 2
+
+TIME 17:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+Core 3- Job 6 (discarded job from core 2)
+
+TIME 18:
+CORE 0- NULL
+CORE 1- NULL
+Core 3- Job 6 (discarded job from core 2)
+Core 2- Job 4
+
+TIME 19:
+CORE 0- NULL
+CORE 1- NULL
+Core 2- Job 4
+CORE 3- NULL
+
+TIME 20:
+Core 0- Job 1
+CORE 3- NULL
+Core 2- Job 3
+Core 1- Job 1
+
+TIME 21:
+Core 0- Job 1
+Core 1- Job 1
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 22:
+Core 0- Job 1
+Core 1- Job 1
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 23:
+Core 0- Job 1
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 24:
+Core 0- Job 1
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 25:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 26:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 27:
+CORE 0- NULL
+CORE 1- NULL
+CORE 3- NULL
+Core 2- Job 4
+
+TIME 28:
+CORE 0- NULL
+CORE 1- NULL
+Core 2- Job 4
+CORE 3- NULL
+
+TIME 29:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 30:
+Core 0- Job 1
+Core 1- Job 1
+Core 2- Job 3
+Core 3- Job 2
+
+TIME 31:
+Core 0- Job 1
+Core 1- Job 1
+Core 2- Job 2
+Core 3- Job 2
+
+TIME 32:
+Core 0- Job 1
+Core 1- Job 1
+Core 2- Job 2
+CORE 3- NULL
+
+TIME 33:
+Core 0- Job 1
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 34:
+Core 0- Job 1
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 35:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 36:
+CORE 0- NULL
+CORE 1- NULL
+CORE 3- NULL
+Core 2- Job 4
+
+TIME 37:
+CORE 0- NULL
+CORE 1- NULL
+Core 2- Job 4
+CORE 3- NULL
+
+TIME 38:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 39:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 40:
+Core 0- Job 1
+CORE 3- NULL
+Core 1- Job 1
+Core 2- Job 3
+
+TIME 41:
+Core 0- Job 1
+Core 1- Job 1
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 42:
+Core 0- Job 1
+Core 1- Job 1
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 43:
+Core 0- Job 1
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 44:
+Core 0- Job 1
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 45:
+CORE 0- NULL
+CORE 1- NULL
+Core 2- Job 4
+Core 3- Job 2
+
+TIME 46:
+CORE 0- NULL
+CORE 1- NULL
+Core 2- Job 4
+Core 3- Job 2
+
+TIME 47:
+CORE 0- NULL
+CORE 1- NULL
+Core 2- Job 2
+CORE 3- NULL
+
+TIME 48:
+CORE 0- NULL
+CORE 1- NULL
+Core 2- Job 2
+CORE 3- NULL
+
+TIME 49:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 50:
+Core 0- Job 1
+CORE 3- NULL
+Core 1- Job 1
+Core 2- Job 3
+
+TIME 51:
+Core 0- Job 1
+Core 1- Job 1
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 52:
+Core 0- Job 1
+Core 1- Job 1
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 53:
+Core 0- Job 1
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 54:
+Core 0- Job 1
+CORE 1- NULL
+CORE 3- NULL
+Core 2- Job 4
+
+TIME 55:
+CORE 0- NULL
+CORE 1- NULL
+Core 2- Job 4
+CORE 3- NULL
+
+TIME 56:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 57:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 58:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 59:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 60:
+Core 0- Job 1
+Core 1- Job 1
+Core 2- Job 3
+Core 3- Job 2
+
+TIME 61:
+Core 0- Job 1
+Core 1- Job 1
+Core 2- Job 2
+Core 3- Job 2
+
+TIME 62:
+Core 0- Job 1
+Core 1- Job 1
+Core 2- Job 2
+CORE 3- NULL
+
+TIME 63:
+Core 0- Job 1
+CORE 1- NULL
+CORE 3- NULL
+Core 2- Job 4
+
+TIME 64:
+Core 0- Job 1
+CORE 1- NULL
+CORE 3- NULL
+Core 2- Job 4
+
+TIME 65:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 66:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 67:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 68:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 69:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 70:
+Core 0- Job 1
+CORE 3- NULL
+Core 1- Job 1
+Core 2- Job 3
+
+TIME 71:
+Core 0- Job 1
+Core 1- Job 1
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 72:
+Core 0- Job 1
+Core 1- Job 1
+CORE 3- NULL
+Core 2- Job 4
+
+TIME 73:
+Core 0- Job 1
+CORE 1- NULL
+Core 2- Job 4
+CORE 3- NULL
+
+TIME 74:
+Core 0- Job 1
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 75:
+CORE 0- NULL
+CORE 1- NULL
+Core 2- Job 2
+Core 3- Job 2
+
+TIME 76:
+CORE 0- NULL
+CORE 1- NULL
+Core 2- Job 2
+Core 3- Job 2
+
+TIME 77:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 78:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 79:
+CORE 0- NULL
+CORE 2- NULL
+CORE 1- NULL
+CORE 3- NULL
+
+TIME 80:
+Core 0- Job 1
+CORE 3- NULL
+Core 1- Job 1
+Core 2- Job 3
+
+TIME 81:
+Core 0- Job 1
+Core 1- Job 1
+CORE 3- NULL
+Core 2- Job 4
+
+TIME 82:
+Core 0- Job 1
+Core 1- Job 1
+Core 2- Job 4
+CORE 3- NULL
+
+TIME 83:
+Core 0- Job 1
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 84:
+Core 0- Job 1
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 85:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 86:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 87:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 88:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
+
+TIME 89:
+CORE 0- NULL
+CORE 1- NULL
+CORE 2- NULL
+CORE 3- NULL
