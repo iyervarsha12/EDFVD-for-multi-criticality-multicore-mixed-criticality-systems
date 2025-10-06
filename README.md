@@ -1,4 +1,5 @@
 # EDFVD-for-multi-criticality-multicore-mixed-criticality-systems
+Done while researching under Dr. Raveendran in BITS Goa.
 This has the implementation for EDF-VD for multi criticality systems (levels &lt;=14) with multiple cores simulated by threads, and are implicit tasks.
 In the event of criticality changes for a core i.e if we go up criticality levels, the lower criticality jobs than that level are discarded, but we save the discarded jobs (and also keep a track of lower criticality jobs coming in) and try to fit it into one of the cores.
 
